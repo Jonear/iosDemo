@@ -74,6 +74,7 @@
 
 - (IBAction)faceBtn:(id)sender {
     _faceBoard.delegate = self;
+    [_messageText resignFirstResponder];
     _messageText.inputView = _faceBoard;
     [_messageText becomeFirstResponder];
 }
