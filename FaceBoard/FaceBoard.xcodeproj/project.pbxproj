@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0C0C8B418F3E7C80049F10E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C0C8B318F3E7C80049F10E /* Foundation.framework */; };
+		D0C0C8B618F3E7C80049F10E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C0C8B518F3E7C80049F10E /* CoreGraphics.framework */; };
+		D0C0C8B818F3E7C80049F10E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C0C8B718F3E7C80049F10E /* UIKit.framework */; };
+		D0C0C8BE18F3E7C90049F10E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C0C8BC18F3E7C90049F10E /* InfoPlist.strings */; };
+		D0C0C8C018F3E7C90049F10E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C8BF18F3E7C90049F10E /* main.m */; };
+		D0C0C8C418F3E7C90049F10E /* HYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C8C318F3E7C90049F10E /* HYAppDelegate.m */; };
+		D0C0C8C618F3E7C90049F10E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C0C8C518F3E7C90049F10E /* Images.xcassets */; };
+		D0C0C8CD18F3E7C90049F10E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C0C8CC18F3E7C90049F10E /* XCTest.framework */; };
+		D0C0C8CE18F3E7C90049F10E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C0C8B318F3E7C80049F10E /* Foundation.framework */; };
+		D0C0C8CF18F3E7C90049F10E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C0C8B718F3E7C80049F10E /* UIKit.framework */; };
+		D0C0C8D718F3E7C90049F10E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C0C8D518F3E7C90049F10E /* InfoPlist.strings */; };
+		D0C0C8D918F3E7C90049F10E /* FaceBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C8D818F3E7C90049F10E /* FaceBoardTests.m */; };
+		D0C0C8E518F3E7E90049F10E /* HYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C8E318F3E7E90049F10E /* HYViewController.m */; };
+		D0C0C8E618F3E7E90049F10E /* HYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0C0C8E418F3E7E90049F10E /* HYViewController.xib */; };
+		D0C0C8EA18F3EC040049F10E /* HYFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C8E918F3EC040049F10E /* HYFaceView.m */; };
+		D0C0C8FE18F3F0DE0049F10E /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C8ED18F3F0DE0049F10E /* Emoji.m */; };
+		D0C0C8FF18F3F0DE0049F10E /* EmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C8EF18F3F0DE0049F10E /* EmojiEmoticons.m */; };
+		D0C0C90018F3F0DE0049F10E /* EmojiMapSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C8F118F3F0DE0049F10E /* EmojiMapSymbols.m */; };
+		D0C0C90118F3F0DE0049F10E /* EmojiPictographs.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C8F318F3F0DE0049F10E /* EmojiPictographs.m */; };
+		D0C0C90218F3F0DE0049F10E /* EmojiTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C8F518F3F0DE0049F10E /* EmojiTransport.m */; };
+		D0C0C90918F3F4A70049F10E /* HYFacialView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C90818F3F4A70049F10E /* HYFacialView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0C0C8D018F3E7C90049F10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0C0C8A818F3E7C80049F10E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C0C8AF18F3E7C80049F10E;
+			remoteInfo = FaceBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0C0C8B018F3E7C80049F10E /* FaceBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C0C8B318F3E7C80049F10E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0C0C8B518F3E7C80049F10E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0C0C8B718F3E7C80049F10E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0C0C8BB18F3E7C90049F10E /* FaceBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceBoard-Info.plist"; sourceTree = "<group>"; };
+		D0C0C8BD18F3E7C90049F10E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0C0C8BF18F3E7C90049F10E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0C0C8C118F3E7C90049F10E /* FaceBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceBoard-Prefix.pch"; sourceTree = "<group>"; };
+		D0C0C8C218F3E7C90049F10E /* HYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYAppDelegate.h; sourceTree = "<group>"; };
+		D0C0C8C318F3E7C90049F10E /* HYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYAppDelegate.m; sourceTree = "<group>"; };
+		D0C0C8C518F3E7C90049F10E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0C0C8CB18F3E7C90049F10E /* FaceBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C0C8CC18F3E7C90049F10E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0C0C8D418F3E7C90049F10E /* FaceBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceBoardTests-Info.plist"; sourceTree = "<group>"; };
+		D0C0C8D618F3E7C90049F10E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0C0C8D818F3E7C90049F10E /* FaceBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBoardTests.m; sourceTree = "<group>"; };
+		D0C0C8E218F3E7E90049F10E /* HYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYViewController.h; path = ../HYViewController.h; sourceTree = "<group>"; };
+		D0C0C8E318F3E7E90049F10E /* HYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYViewController.m; path = ../HYViewController.m; sourceTree = "<group>"; };
+		D0C0C8E418F3E7E90049F10E /* HYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HYViewController.xib; path = ../HYViewController.xib; sourceTree = "<group>"; };
+		D0C0C8E818F3EC040049F10E /* HYFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFaceView.h; sourceTree = "<group>"; };
+		D0C0C8E918F3EC040049F10E /* HYFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFaceView.m; sourceTree = "<group>"; };
+		D0C0C8EC18F3F0DE0049F10E /* Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Emoji.h; path = "Emoji-master/Emoji.h"; sourceTree = "<group>"; };
+		D0C0C8ED18F3F0DE0049F10E /* Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Emoji.m; path = "Emoji-master/Emoji.m"; sourceTree = "<group>"; };
+		D0C0C8EE18F3F0DE0049F10E /* EmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmojiEmoticons.h; path = "Emoji-master/EmojiEmoticons.h"; sourceTree = "<group>"; };
+		D0C0C8EF18F3F0DE0049F10E /* EmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmojiEmoticons.m; path = "Emoji-master/EmojiEmoticons.m"; sourceTree = "<group>"; };
+		D0C0C8F018F3F0DE0049F10E /* EmojiMapSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmojiMapSymbols.h; path = "Emoji-master/EmojiMapSymbols.h"; sourceTree = "<group>"; };
+		D0C0C8F118F3F0DE0049F10E /* EmojiMapSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmojiMapSymbols.m; path = "Emoji-master/EmojiMapSymbols.m"; sourceTree = "<group>"; };
+		D0C0C8F218F3F0DE0049F10E /* EmojiPictographs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmojiPictographs.h; path = "Emoji-master/EmojiPictographs.h"; sourceTree = "<group>"; };
+		D0C0C8F318F3F0DE0049F10E /* EmojiPictographs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmojiPictographs.m; path = "Emoji-master/EmojiPictographs.m"; sourceTree = "<group>"; };
+		D0C0C8F418F3F0DE0049F10E /* EmojiTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmojiTransport.h; path = "Emoji-master/EmojiTransport.h"; sourceTree = "<group>"; };
+		D0C0C8F518F3F0DE0049F10E /* EmojiTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmojiTransport.m; path = "Emoji-master/EmojiTransport.m"; sourceTree = "<group>"; };
+		D0C0C90718F3F4A70049F10E /* HYFacialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFacialView.h; sourceTree = "<group>"; };
+		D0C0C90818F3F4A70049F10E /* HYFacialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFacialView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C0C8AD18F3E7C80049F10E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C0C8B618F3E7C80049F10E /* CoreGraphics.framework in Frameworks */,
+				D0C0C8B818F3E7C80049F10E /* UIKit.framework in Frameworks */,
+				D0C0C8B418F3E7C80049F10E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C0C8C818F3E7C90049F10E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C0C8CD18F3E7C90049F10E /* XCTest.framework in Frameworks */,
+				D0C0C8CF18F3E7C90049F10E /* UIKit.framework in Frameworks */,
+				D0C0C8CE18F3E7C90049F10E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0C0C8A718F3E7C80049F10E = {
+			isa = PBXGroup;
+			children = (
+				D0C0C8EB18F3F0BD0049F10E /* HYEmoj */,
+				D0C0C8E718F3EBC20049F10E /* HYFaceBoard */,
+				D0C0C8B918F3E7C90049F10E /* FaceBoard */,
+				D0C0C8D218F3E7C90049F10E /* FaceBoardTests */,
+				D0C0C8B218F3E7C80049F10E /* Frameworks */,
+				D0C0C8B118F3E7C80049F10E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C0C8B118F3E7C80049F10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0C8B018F3E7C80049F10E /* FaceBoard.app */,
+				D0C0C8CB18F3E7C90049F10E /* FaceBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C0C8B218F3E7C80049F10E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0C8B318F3E7C80049F10E /* Foundation.framework */,
+				D0C0C8B518F3E7C80049F10E /* CoreGraphics.framework */,
+				D0C0C8B718F3E7C80049F10E /* UIKit.framework */,
+				D0C0C8CC18F3E7C90049F10E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C0C8B918F3E7C90049F10E /* FaceBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0C8E218F3E7E90049F10E /* HYViewController.h */,
+				D0C0C8E318F3E7E90049F10E /* HYViewController.m */,
+				D0C0C8E418F3E7E90049F10E /* HYViewController.xib */,
+				D0C0C8C218F3E7C90049F10E /* HYAppDelegate.h */,
+				D0C0C8C318F3E7C90049F10E /* HYAppDelegate.m */,
+				D0C0C8C518F3E7C90049F10E /* Images.xcassets */,
+				D0C0C8BA18F3E7C90049F10E /* Supporting Files */,
+			);
+			path = FaceBoard;
+			sourceTree = "<group>";
+		};
+		D0C0C8BA18F3E7C90049F10E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0C8BB18F3E7C90049F10E /* FaceBoard-Info.plist */,
+				D0C0C8BC18F3E7C90049F10E /* InfoPlist.strings */,
+				D0C0C8BF18F3E7C90049F10E /* main.m */,
+				D0C0C8C118F3E7C90049F10E /* FaceBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0C0C8D218F3E7C90049F10E /* FaceBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0C8D818F3E7C90049F10E /* FaceBoardTests.m */,
+				D0C0C8D318F3E7C90049F10E /* Supporting Files */,
+			);
+			path = FaceBoardTests;
+			sourceTree = "<group>";
+		};
+		D0C0C8D318F3E7C90049F10E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0C8D418F3E7C90049F10E /* FaceBoardTests-Info.plist */,
+				D0C0C8D518F3E7C90049F10E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0C0C8E718F3EBC20049F10E /* HYFaceBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0C8E818F3EC040049F10E /* HYFaceView.h */,
+				D0C0C8E918F3EC040049F10E /* HYFaceView.m */,
+				D0C0C90718F3F4A70049F10E /* HYFacialView.h */,
+				D0C0C90818F3F4A70049F10E /* HYFacialView.m */,
+			);
+			name = HYFaceBoard;
+			sourceTree = "<group>";
+		};
+		D0C0C8EB18F3F0BD0049F10E /* HYEmoj */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0C8EC18F3F0DE0049F10E /* Emoji.h */,
+				D0C0C8ED18F3F0DE0049F10E /* Emoji.m */,
+				D0C0C8EE18F3F0DE0049F10E /* EmojiEmoticons.h */,
+				D0C0C8EF18F3F0DE0049F10E /* EmojiEmoticons.m */,
+				D0C0C8F018F3F0DE0049F10E /* EmojiMapSymbols.h */,
+				D0C0C8F118F3F0DE0049F10E /* EmojiMapSymbols.m */,
+				D0C0C8F218F3F0DE0049F10E /* EmojiPictographs.h */,
+				D0C0C8F318F3F0DE0049F10E /* EmojiPictographs.m */,
+				D0C0C8F418F3F0DE0049F10E /* EmojiTransport.h */,
+				D0C0C8F518F3F0DE0049F10E /* EmojiTransport.m */,
+			);
+			name = HYEmoj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C0C8AF18F3E7C80049F10E /* FaceBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C0C8DC18F3E7C90049F10E /* Build configuration list for PBXNativeTarget "FaceBoard" */;
+			buildPhases = (
+				D0C0C8AC18F3E7C80049F10E /* Sources */,
+				D0C0C8AD18F3E7C80049F10E /* Frameworks */,
+				D0C0C8AE18F3E7C80049F10E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBoard;
+			productName = FaceBoard;
+			productReference = D0C0C8B018F3E7C80049F10E /* FaceBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0C0C8CA18F3E7C90049F10E /* FaceBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C0C8DF18F3E7C90049F10E /* Build configuration list for PBXNativeTarget "FaceBoardTests" */;
+			buildPhases = (
+				D0C0C8C718F3E7C90049F10E /* Sources */,
+				D0C0C8C818F3E7C90049F10E /* Frameworks */,
+				D0C0C8C918F3E7C90049F10E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0C0C8D118F3E7C90049F10E /* PBXTargetDependency */,
+			);
+			name = FaceBoardTests;
+			productName = FaceBoardTests;
+			productReference = D0C0C8CB18F3E7C90049F10E /* FaceBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C0C8A818F3E7C80049F10E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "邱扬";
+				TargetAttributes = {
+					D0C0C8CA18F3E7C90049F10E = {
+						TestTargetID = D0C0C8AF18F3E7C80049F10E;
+					};
+				};
+			};
+			buildConfigurationList = D0C0C8AB18F3E7C80049F10E /* Build configuration list for PBXProject "FaceBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0C0C8A718F3E7C80049F10E;
+			productRefGroup = D0C0C8B118F3E7C80049F10E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C0C8AF18F3E7C80049F10E /* FaceBoard */,
+				D0C0C8CA18F3E7C90049F10E /* FaceBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C0C8AE18F3E7C80049F10E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C0C8E618F3E7E90049F10E /* HYViewController.xib in Resources */,
+				D0C0C8BE18F3E7C90049F10E /* InfoPlist.strings in Resources */,
+				D0C0C8C618F3E7C90049F10E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C0C8C918F3E7C90049F10E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C0C8D718F3E7C90049F10E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C0C8AC18F3E7C80049F10E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C0C8FF18F3F0DE0049F10E /* EmojiEmoticons.m in Sources */,
+				D0C0C8E518F3E7E90049F10E /* HYViewController.m in Sources */,
+				D0C0C8FE18F3F0DE0049F10E /* Emoji.m in Sources */,
+				D0C0C90218F3F0DE0049F10E /* EmojiTransport.m in Sources */,
+				D0C0C8C018F3E7C90049F10E /* main.m in Sources */,
+				D0C0C8EA18F3EC040049F10E /* HYFaceView.m in Sources */,
+				D0C0C90118F3F0DE0049F10E /* EmojiPictographs.m in Sources */,
+				D0C0C90918F3F4A70049F10E /* HYFacialView.m in Sources */,
+				D0C0C8C418F3E7C90049F10E /* HYAppDelegate.m in Sources */,
+				D0C0C90018F3F0DE0049F10E /* EmojiMapSymbols.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C0C8C718F3E7C90049F10E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C0C8D918F3E7C90049F10E /* FaceBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0C0C8D118F3E7C90049F10E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C0C8AF18F3E7C80049F10E /* FaceBoard */;
+			targetProxy = D0C0C8D018F3E7C90049F10E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0C0C8BC18F3E7C90049F10E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C0C8BD18F3E7C90049F10E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0C0C8D518F3E7C90049F10E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C0C8D618F3E7C90049F10E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C0C8DA18F3E7C90049F10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0C0C8DB18F3E7C90049F10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C0C8DD18F3E7C90049F10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBoard/FaceBoard-Prefix.pch";
+				INFOPLIST_FILE = "FaceBoard/FaceBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0C0C8DE18F3E7C90049F10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBoard/FaceBoard-Prefix.pch";
+				INFOPLIST_FILE = "FaceBoard/FaceBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0C0C8E018F3E7C90049F10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FaceBoard.app/FaceBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBoard/FaceBoard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FaceBoardTests/FaceBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0C0C8E118F3E7C90049F10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FaceBoard.app/FaceBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBoard/FaceBoard-Prefix.pch";
+				INFOPLIST_FILE = "FaceBoardTests/FaceBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C0C8AB18F3E7C80049F10E /* Build configuration list for PBXProject "FaceBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C0C8DA18F3E7C90049F10E /* Debug */,
+				D0C0C8DB18F3E7C90049F10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C0C8DC18F3E7C90049F10E /* Build configuration list for PBXNativeTarget "FaceBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C0C8DD18F3E7C90049F10E /* Debug */,
+				D0C0C8DE18F3E7C90049F10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C0C8DF18F3E7C90049F10E /* Build configuration list for PBXNativeTarget "FaceBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C0C8E018F3E7C90049F10E /* Debug */,
+				D0C0C8E118F3E7C90049F10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C0C8A818F3E7C80049F10E /* Project object */;
+}
